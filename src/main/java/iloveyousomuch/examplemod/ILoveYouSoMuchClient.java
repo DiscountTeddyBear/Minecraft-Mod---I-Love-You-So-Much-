@@ -45,6 +45,7 @@ public class ILoveYouSoMuchClient {
     public static void onClientTick(ClientTickEvent.Pre event) {
         Minecraft mc = Minecraft.getInstance();
         if (mc.player != null && mc.player.connection != null && KISS_KEY.consumeClick()) {
+            ILoveYouSoMuch.LOGGER.info("Kiss key pressed by {}", mc.player.getName().getString());
             mc.player.connection.send(new ServerboundCustomPayloadPacket(new KissMessage()));
         }
     }
