@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -26,10 +27,12 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(ILoveYouSoMuch.MODID)
@@ -81,6 +84,9 @@ public class ILoveYouSoMuch {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        // Register network payloads
+        modEventBus.addListener(this::registerPayloads);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -113,5 +119,10 @@ public class ILoveYouSoMuch {
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
+    }
+
+    private void registerPayloads(final RegisterPayloadHandlersEvent event) {
+        event.registrar(MODID)
+            .playToServer(KissMessage.TYPE, KissMessage.STREAM_CODEC, KissMessage::handle);
     }
 }
