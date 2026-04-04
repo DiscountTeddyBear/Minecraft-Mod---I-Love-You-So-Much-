@@ -1,0 +1,13 @@
+{
+  "itemGroup.iloveyousomuch": "Example Mod Tab",
+  "block.iloveyousomuch.example_block": "Example Block",
+  "item.iloveyousomuch.example_item": "Example Item",
+
+  "iloveyousomuch.configuration.title": "I Love You So Much Configs",
+  "iloveyousomuch.configuration.section.iloveyousomuch.common.toml": "I Love You So Much Configs",
+  "iloveyousomuch.configuration.section.iloveyousomuch.common.toml.title": "I Love You So Much Configs",
+  "iloveyousomuch.configuration.items": "Item List",
+  "iloveyousomuch.configuration.logDirtBlock": "Log Dirt Block",
+  "iloveyousomuch.configuration.magicNumberIntroduction": "Magic Number Text",
+  "iloveyousomuch.configuration.magicNumber": "Magic Number"
+}
