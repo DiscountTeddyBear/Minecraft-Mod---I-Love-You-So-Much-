@@ -23,3 +23,17 @@ Additional Resources:
 ==========
 Community Documentation: https://docs.neoforged.net/  
 NeoForged Discord: https://discord.neoforged.net/
+
+Mod Description: 
+==========
+A small mod that allows you to kiss other players
+
+I created this mod for my boyfriend hehe :3
+All you need to do is look at another player and press the "kiss" key.
+The keybind for the "kiss" key is located in the "Multiplayer" category. The default keybind is "R".
+
+
+
+Developed by DiscountTeddyBear
+
+Directly inspired by the "Make Kisses" mod by kitoglavch.
