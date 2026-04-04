@@ -32,7 +32,7 @@ I created this mod for my boyfriend hehe :3
 All you need to do is look at another player and press the "kiss" key.
 The keybind for the "kiss" key is located in the "Multiplayer" category. The default keybind is "R".
 
-
+[![Watch the video](https://raw.githubusercontent.com/DiscountTeddyBear/Minecraft-Mod---I-Love-You-So-Much-/main/assets/Minecraft-Mod---I-Love-You-So-Much---Thumbnail)](https://raw.githubusercontent.com/DiscountTeddyBear/Minecraft-Mod---I-Love-You-So-Much-/main/assets/Minecraft-Mod---I-Love-You-So-Much---Demo-video)
 
 Developed by DiscountTeddyBear
 
