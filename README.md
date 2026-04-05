@@ -29,6 +29,7 @@ Mod Description:
 A small mod that allows you to kiss other players
 
 I created this mod for my boyfriend hehe :3
+
 All you need to do is look at another player and press the "kiss" key.
 
 This will make hearts particles appear around both players and play a cat ambient noise. A message will also appear in chat notifying you of the kiss.
