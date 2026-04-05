@@ -36,9 +36,9 @@ The keybind for the "kiss" key is located in the "Multiplayer" category. The def
 Demo: 
 ==========
 Check out the mod in action:
-
+ 
 [![Watch the demo video](https://raw.githubusercontent.com/DiscountTeddyBear/Minecraft-Mod---I-Love-You-So-Much-/main/assets/Minecraft-Mod---I-Love-You-So-Much---Thumbnail.jpg)](https://raw.githubusercontent.com/DiscountTeddyBear/Minecraft-Mod---I-Love-You-So-Much-/main/assets/Minecraft-Mod---I-Love-You-So-Much---Demo-video.mp4)
-
+ 
 (Click Thumbnail to watch demo video)
 
 Credits: 
